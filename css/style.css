@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*header*/
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(../assets/images/headerBackground.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+.container {
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-left {
+    width: 40%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+h1 {
+    color: #212e34;
+    font-size: 4.5rem;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+.container-left p {
+    color: #989898;
+    font-size: 1.5rem;
+    width: 100%;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+
+/*container right*/
+
+.container-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+}
+.container-right img {
+    width: 80%;
+    opacity: 100%;
+    transition: 0.3s;
+}
+
+/*section*/
+section {
+    width: 100%;
+    height: 100vh;
+    background: url(../assets/images/sectionBackground.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .container {
+    justify-content: flex-end;
+}
+section .container .container-right {
+    align-items: flex-end;
+    width: 45%;
+    text-align: right;
+    height: 70%;
+}
+.container-right p {
+    color: #989898;
+    font-size: 1.5rem;
+    width: 80%;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+section h2 {
+    color: #212e34;
+    font-size: 4rem;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+/*footer*/
+
+footer {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #aaff01;
+    border-radius: 0px 5px 0px 0px;
+}
+footer p {
+    color: white;
+    font-weight: 900;
+}
